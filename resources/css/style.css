@@ -37,3 +37,36 @@ a{
 body{
   margin: 0;
 }
+
+.content{
+  display: flex;
+  padding-top: 116px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+div{
+  border: 1px solid black;
+}
+
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+p {
+  display: block;
+}
