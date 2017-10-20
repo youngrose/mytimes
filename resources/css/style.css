@@ -45,29 +45,57 @@ body{
   width: 1232px;
   margin: 0 auto 78px auto;
 }
-
 .column{
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
 
+.text-content{
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.image-content{
+  display: flex;
+  flex-direction: column;
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  height: 300px;
+  color: white;
+}
+.leadstory .image-content{
+  background-image: url("../images/mainstory.png");
+  width: 630px;
+  margin-top: 0px;
+  font-size: 40px;
+  text-align: left;
+}
+.fallseason.image-content{
+  background-image: url("../images/fallseason.png");
+}
+.hipstercamera.image-content{
+  background-image: url("../images/hipstercamera.png");
+}
+.catgirl.image-content{
+  background-image: url("../images/catgirl.png");
+}
 div{
   border: 1px solid black;
 }
 
-
-.column.large {
-  width: 630px;
-}
-
-.column.medium {
-  width: 300px;
-}
-
-.column.small {
-  width: 240px;
-}
 p {
   display: block;
 }
